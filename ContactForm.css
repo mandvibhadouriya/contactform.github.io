@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.container{
+    background-color: rgba(204, 204, 204, 0.103);
+}
+h1{
+    background-color: rgba(58, 128, 0, 0.808);
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    margin: 20px;
+    
+    width: 100%;
+}
+select{
+    background-color: #fff;
+}
+input[type="submit"]{
+    background-color: rgba(58, 128, 0, 0.808);
+    padding: 15px;
+    font-size: 30px;
+    width: 10%;
+    height: 5%;
+}
+input[type="submit"]:hover{
+    color: indianred;
+    cursor: pointer;
+   
+}
